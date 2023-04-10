@@ -18,7 +18,7 @@ function Nav() {
             <a><Link to='/'>Home</Link></a>
             <a><Link to='/catalogo'>Catalogo</Link></a>
             <a><Link to='/usuario'>Usuario</Link> </a>
-            <Link to='/carrito'><box-icon name='cart' color='white'></box-icon></Link>
+            <Link to=''><box-icon name='cart' color='white'></box-icon></Link>
         </nav>
     </div>
 </header>
