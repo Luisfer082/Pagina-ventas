@@ -1,0 +1,32 @@
+[
+    {
+        "tags": [],
+        "isActive": true,
+        "name": "Los girasoles",
+        "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/Los%20girasoles.jpg",
+        "value": 500
+    },
+
+    {
+        "tags": [],
+        "isActive": true,
+        "name": "El grito",
+        "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/El%20grito.jpg",
+        "value": 600
+    },
+    {
+        "tags": [],
+        "isActive": true,
+        "name": "El beso",
+        "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/El%20beso%20.jpg",
+        "value": 2000
+    },
+    {
+        "tags": [],
+        "isActive": true,
+        "name": "La noche estrellada",
+        "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/Noche%20estrellada.jpg",
+        "value": 1200
+    }
+
+]

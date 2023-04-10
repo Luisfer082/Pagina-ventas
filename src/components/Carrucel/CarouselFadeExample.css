@@ -1,0 +1,15 @@
+.conteiner{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+
+h3,p{
+    color: rgb(0, 0, 0);
+}
+
+img{
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
