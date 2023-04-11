@@ -16,15 +16,11 @@ const cuadrosSchema = mongoose.Schema(
             type: Number,
             require: true,
         },
-        isActive:{
-            type: Boolean,
-            default: true,
-        },
     },
     {
         timestamps: true,
 
     },
 );
-const product = mongoose.model('product',schema);
+const product = mongoose.model('Products', schema);
 module.exports = product
