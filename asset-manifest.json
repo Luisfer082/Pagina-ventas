@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Proyecto5-cuadros/static/css/main.9958852d.css",
+    "main.js": "/Proyecto5-cuadros/static/js/main.0515afa0.js",
+    "static/js/787.a7b5d33f.chunk.js": "/Proyecto5-cuadros/static/js/787.a7b5d33f.chunk.js",
+    "index.html": "/Proyecto5-cuadros/index.html",
+    "main.9958852d.css.map": "/Proyecto5-cuadros/static/css/main.9958852d.css.map",
+    "main.0515afa0.js.map": "/Proyecto5-cuadros/static/js/main.0515afa0.js.map",
+    "787.a7b5d33f.chunk.js.map": "/Proyecto5-cuadros/static/js/787.a7b5d33f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9958852d.css",
+    "static/js/main.0515afa0.js"
+  ]
+}
