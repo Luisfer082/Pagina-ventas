@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
     <Nav></Nav>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/Proyecto5-cuadros/' element={<Home />} />
          <Route path='/carrito' element={<Carrito />} />
          <Route path='/usuario' element={<Usuario />} />
          <Route path='/catalogo' element={<Catalogo />} />

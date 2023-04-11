@@ -33,15 +33,7 @@ function Footer() {
     </div>
   </div>
   <div className='container'>
-    <div className='row'>
-      <div className='col-md-4 col-sm-6 col-xs-12'>
-        <ul className='social-icons'>
-          <box-icon type='logo' name='facebook' size='30px' color='white'></box-icon>
-         <box-icon name='instagram' type='logo' size='30px'  color='white'></box-icon>
-         <box-icon name='youtube' type='logo' size='30px'  color='white' ></box-icon>
-        </ul>
-      </div>
-    </div>
+    
   </div>
 </footer>
 

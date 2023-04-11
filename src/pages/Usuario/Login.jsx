@@ -44,7 +44,7 @@ function Login() {
             <Button className='w-100 mt-4 btn btn-primary ' type='submit'>Iniciar</Button>
           </Form>
           <div className='w-100 text-center mt-3'>
-            <Link to="/forgot-password">Olvidé mi contraseña</Link>
+            <Link to="/">Olvidé mi contraseña</Link>
           </div>
         </Card.Body>
       </Card>
