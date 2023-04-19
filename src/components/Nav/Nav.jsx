@@ -18,6 +18,7 @@ function Nav() {
             <a><Link to='/Proyecto5-cuadros/'>Home</Link></a>
             <a><Link to='/catalogo'>Catalogo</Link></a>
             <a><Link to='/usuario'>Usuario</Link> </a>
+            <a><Link to='/Dashboard'> Mi perfil</Link></a>
             <Link to='/Proyecto5-cuadros/'><box-icon name='cart' color='white'></box-icon></Link>
         </nav>
     </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { Container } from "react-bootstrap";
+
 
 
 export default function Dashboard() {
@@ -12,7 +13,7 @@ export default function Dashboard() {
   function handleLogout() {
     //logica de como cerrar sesion
     localStorage.clear()
-    navigate('/usuario')
+    navigate('/Dashboard')
   }
 
   return (
@@ -29,6 +30,7 @@ export default function Dashboard() {
       </Card>
       <div className='w-100 text-center mt-2'>
         <Button variant='link' onClick={handleLogout}>Cerrar Sesión</Button>
+        <a><Link to='/usuario'>Registrar Usuario</Link> </a>
       </div>
       </div>
       </Container>

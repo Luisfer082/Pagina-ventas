@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Home2 from './Home2'
+import { UserContext } from '../../context/UserContet'
 import { motion } from 'framer-motion'
 
 function Home() {

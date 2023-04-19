@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Footer.css'
+import { UserContext } from '../../context/UserContet'
 
 
 function Footer() {
+  const {letra, setLetra} = useContext(UserContext)
   return (
     <>
     <footer className='site-footer'>
@@ -10,7 +12,7 @@ function Footer() {
     <div className='row'>
       <div className='col-sm-12 col-md-6'>
         <h6>Square Box</h6>
-        <p className='text-justify'>La mejor tienda de cuadros, vuelve proto a revisar el catalogo, simpre tendras cosas nuevas que te pueden interesar. </p>
+        {<p className='text-justify'>{letra} </p>}
       </div>
 
       <div className='col-xs-6 col-md-3'>

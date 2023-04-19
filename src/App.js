@@ -9,10 +9,12 @@ import Footer from './components/Footer/Footer';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import Singup from './pages/Usuario/Singup';
 import Dashboard from './pages/Usuario/Dashboard';
+import { UserProvider } from './context/UserContet';
 
 
 function App() {
   return (
+    <UserProvider>
     <BrowserRouter>
     <Nav></Nav>
       <Routes>
@@ -25,6 +27,7 @@ function App() {
        </Routes>
        <Footer></Footer>
      </BrowserRouter>
+    </UserProvider>
       
   );
 }

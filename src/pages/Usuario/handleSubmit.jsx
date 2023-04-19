@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 export default function Dashboard() {
@@ -26,7 +26,8 @@ export default function Dashboard() {
       </Card>
       <div className='w-100 text-center mt-2'>
         <Button variant='link' onClick={handleLogout}>Cerrar Sesión</Button>
-      </div>
+        
+      </div>  
       
 
     </>
