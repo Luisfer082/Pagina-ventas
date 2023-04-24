@@ -3,11 +3,11 @@ import './Card.css'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
-import { UserContext } from '../../context/UserContet';
-import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
+import Products from '../../Products.json'
+
 
 export function CardProduct(props) {
-  const {carrito, setCarrito} = useContext(UserContext)
     return(
       <CardGroup className='cardSize'>
       <Card key={props.id}>
@@ -17,7 +17,6 @@ export function CardProduct(props) {
           <Card.Text>
             {props.value}
           </Card.Text>
-           
             <Button variant="outline-secondary">Agregar al carrito</Button>
         </Card.Body>
       </Card>

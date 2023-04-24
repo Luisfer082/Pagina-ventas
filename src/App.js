@@ -10,6 +10,7 @@ import  'bootstrap/dist/css/bootstrap.min.css' ;
 import Singup from './pages/Usuario/Singup';
 import Dashboard from './pages/Usuario/Dashboard';
 import { UserProvider } from './context/UserContet';
+import ProductUni from './components/ProductUni';
 
 
 function App() {
@@ -19,14 +20,18 @@ function App() {
     <Nav></Nav>
       <Routes>
         <Route path='/Proyecto5-cuadros/' element={<Home />} />
-         <Route path='/carrito' element={<Carrito />} />
-         <Route path='/usuario' element={<Usuario />} />
-         <Route path='/catalogo' element={<Catalogo />} />
-         <Route path='/Singup' element={<Singup />} />
-         <Route path='/Dashboard' element={<Dashboard />} />
-       </Routes>
-       <Footer></Footer>
-     </BrowserRouter>
+          <Route path='/carrito' element={<Carrito />} />
+          <Route path='/usuario' element={<Usuario />} />
+          <Route path='/catalogo' element={<Catalogo />} />
+          <Route path='/Singup' element={<Singup />} />
+          <Route path='/Dashboard' element={<Dashboard />} />
+          <Route path='/productUni/:id' Component={ProductUni} />
+          <Route path='/product/1' element={<ProductUni />} />
+          <Route path='/product/:id' element={<ProductUni />} />
+  
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
     </UserProvider>
       
   );

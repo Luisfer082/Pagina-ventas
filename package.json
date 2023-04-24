@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
+    "cirrus-ui": "^0.7.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "framer-motion": "10.6.0",

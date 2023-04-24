@@ -1,32 +1,41 @@
 [
     {
         "tags": [],
+        "id": "1",
         "isActive": true,
         "name": "Los girasoles",
         "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/Los%20girasoles.jpg",
-        "value": 500
+        "value": 500,
+        "info": "Las pinturas de girasoles tenían un significado especial para Van Gogh, por que comunicaban gratitud,"
+
     },
 
     {
         "tags": [],
+        "id": "2",
         "isActive": true,
         "name": "El grito",
         "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/El%20grito.jpg",
-        "value": 600
+        "value": 600,
+        "info":"¿Cuál es el significado de la pintura El grito? 'El grito' refleja la ansiedad y la angustia del ser humano, y ese era el mensaje que quiso transmitir su autor. "
     },
     {
         "tags": [],
+        "id": "3",
         "isActive": true,
         "name": "El beso",
         "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/El%20beso%20.jpg",
-        "value": 2000
+        "value": 2000,
+        "info":"El beso, en su significado cultural general, representa una expresión emocional que refleja sentimientos de amor o afecto hacia otra persona."
     },
     {
         "tags": [],
+        "id": "4",
         "isActive": true,
         "name": "La noche estrellada",
         "image": "https://raw.githubusercontent.com/Luisfer082/Imagenes-proyecto5/main/Noche%20estrellada.jpg",
-        "value": 1200
+        "value": 1200,
+        "info":"En este cuadro quiso expresar todo el dolor que sentía e incluso se imaginó como sería la vista al exterior y así la reflejó en el cuadro."
     }
 
 ]
